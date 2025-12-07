@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-banner{
+    display: flex;
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    
+}
+body {
+    overflow-x: hidden;
+}
+.topleft{
+    width:33%;
+}
+.logo{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.topmiddle{
+    width:34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.nav{
+    display: flex;
+    gap:32px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+}
+.v:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.e:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.c:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.d:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.s:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.topright{
+    width:33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.user{
+    gap:15px;
+    width:40%;
+    display: flex;
+    size: 35px;
+    
+}
+.user:hover{
+    border: 2px solid rgb(255, 255, 255)
+}
+.model3{
+    position: relative;
+    width: 100%;
+    height: 690px;
+    overflow: hidden;
+    margin-top: 56px;
+
+
+}
+.model3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.textonimage{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    transform: translate(-50%,-50%);
+
+
+}
+.textonimage h1{
+   font-size: 56px;
+   font-weight: 500;
+   height: 56px;
+   line-height: 56px;
+
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons button{
+    background-color: rgba(255,255,255,0.85);
+    border: none;
+    font-size: 15px;
+    padding: 12px 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    
+}
+.buttons .button1 {
+background-color: rgb(62, 106, 225);
+   
+    
+}
+.buttons .button1:hover{
+    opacity: .9;
+}
+.buttons .button2:hover{
+    opacity: .9;
+}
+
+.modely{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+   
+   
+}
+.modely img{
+   
+    object-fit: cover;
+
+}
+.textonimage2{
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    transform: translate(-60%,-5%);
+    margin-left: 140px;
+
+
+}
+.textonimage2 h1{
+   font-size: 56px;
+   font-weight: 500;
+   height: 56px;
+   line-height: 56px;
+
+}
+.textonimage2 h2{
+   font-size: 25px;
+   font-weight: 200;
+   height: 56px;
+   line-height: 56px;
+}
+
+.buttonsy{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+   
+}
+.buttonsy button{
+    background-color: rgba(255,255,255,0.85);
+    border: none;
+    font-size: 15px;
+    padding: 12px 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+   
+    
+}
+.buttonsy .buttony1 {
+background-color: rgb(62, 106, 225);
+   
+    
+}
+.buttonsy .buttony1:hover{
+    opacity: .9;
+}
+.buttonsy .buttony2:hover{
+    opacity: .9;
+}
+
+.textonimage3{
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    transform: translate(350%,-5%);
+   
+
+
+}
+.textonimage3 h1{
+   font-size: 56px;
+   font-weight: 500;
+   height: 56px;
+   line-height: 56px;
+
+}
+.textonimage3 h2{
+    font-size: 25px;
+     font-weight: 200;
+   height: 56px;
+   line-height: 56px;
+}
+.buttons3{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+   
+}
+.buttons3 button{
+    background-color: rgba(255,255,255,0.85);
+    border: none;
+    font-size: 15px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+   
+    
+}
+.buttons3 .button31 {
+background-color: rgb(62, 106, 225);
+   
+    
+}
+.buttons3 .button31:hover{
+    opacity: .9;
+}
+.buttons3 .button32:hover{
+    opacity: .9;
+}
+
+
+.dots{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.main3{
+    display: flex;
+    gap: 25px;
+    height: 220px;
+    width: 100%;
+}
+.left3{
+    height: 220px;
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+    background-color:rgb(244, 244, 244);
+    justify-content: space-between;
+    
+}
+.left31{
+    margin-left: 50px;
+    font-size: larger;
+    margin-top: 40px;
+}
+.left31 p1{
+    font-size: 34px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-weight: 500;
+}
+.left31 p2{
+   color: grey;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+}
+.left32{
+    overflow: hidden;
+}
+.left32 img{
+    object-fit: cover;
+}
+.button7{
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border:0px;
+    margin-top: 7px;
+    
+   
+}
+.right3{
+     height: 220px;
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+    background-color:rgb(244,244,244);
+    justify-content: space-between;
+}
+
+.right31{
+    margin-left: 50px;
+    font-size: larger;
+    margin-top: 40px;
+}
+
+.right31 p1{
+    font-size: 34px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.right31 p2{
+    color: grey;
+     font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+}
+
+.right32{
+    overflow: hidden;
+}
+
+.right32 img{
+    object-fit: cover;
+}
+
+.button8{
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border:0px;
+    margin-top: 7px;
+}
+
+
+.main4{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    
+}
+
+.left4{
+    display: flex;
+    width: 63%;
+    height: 100%;
+    background-color: black;
+    margin-left: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.left4 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+   
+}
+.left41{
+    position:absolute;
+    bottom: 0;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: white;
+    margin-right: 12px;
+}
+.button41{
+    padding: 12px 55px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(58, 126, 243);
+    border:0;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.button42{
+    padding: 12px 55px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(7, 6, 6);
+    background-color: rgb(255, 255, 255);
+    border:0;
+    border-radius: 5px;
+}
+
+
+.right4{
+    display: flex;
+    width: 30%;
+    overflow: hidden;
+    margin-right: 50px;
+    position: relative;
+}
+.right4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right41{
+    position:absolute;
+    bottom: 0;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 30px;
+    color: white;
+    margin-right: 12px;
+}
+.button43{
+    padding: 12px 55px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(58, 126, 243);
+    border:0;
+    border-radius: 5px;
+}
+
+.main5{
+    display: flex;
+    margin-top: 60px;
+    height: 600px;
+    margin-left: 50px;
+
+}
+.main6{
+    display: flex;
+    margin-left:50px;
+    height: 250px;
+    margin-top:20px;
+}
+.left6{
+    margin-left: 40px;
+}
+.left6 p{
+    font-family:  "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    height: 56px;
+    line-height: 56px;
+}
+.left6 p1{
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(92, 94, 98);
+}
+.button61{
+    margin-top: 30px;
+    background-color: rgb(23, 26, 32);
+    border: none;
+    font-size: 15px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.button61:hover{
+    cursor: pointer;
+}
+
+.button62{
+    margin-top: 30px;
+    background-color: rgb(249, 250, 251);
+    border: none;
+    font-size: 15px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    color: rgb(5, 6, 6);
+}
+.right6{
+    display: flex;
+     font-family:  "Universal Sans Display", -apple-system, Arial, sans-serif;
+   
+}
+.left61{
+    margin-left: 150px;
+}
+.right62{
+    margin-left: 80px;
+}
+
+.right6 p1{
+    color: rgb(23, 26, 32);
+    color-scheme: light;
+    display: block;
+    flex-direction: row;
+    font-family:  "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+.right6 p3{
+    color: rgb(23, 26, 32);
+    color-scheme: light;
+    display: block;
+    flex-direction: row;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+.main7{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+
+}
+.textonimage6{
+    position: absolute;
+    bottom: 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.textonimage6 h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+     font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+
+}
+.textonimage6 h2{
+   font-size: 20px;
+   font-weight: 200;
+   color: white;
+}
+
+.buttons6 .button61{
+    background-color: rgb(5, 126, 247);
+}
+.textonimage7{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.textonimage7 h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+     font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+}
+.textonimage7 h2{
+   font-size: 20px;
+   font-weight: 200;
+   color: white;
+}
+.buttons7{
+    margin-bottom: 30px;
+    margin-top: 20px;
+   
+}
+.button71{
+    padding: 15px 40px;
+    margin-right: 5px;
+    background-color: rgb(5, 126, 247);
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.button72{
+    padding: 15px 40px;
+    margin-right: 65px;
+    background-color: white;
+     border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.otherinfo{
+    
+    display: flex;
+    margin-top: 80px;
+    gap:20px;
+    justify-content: center;
+    height: 150px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    height: auto;
+    line-height: 20px;
+    margin-bottom: 90px;
+   
+}
+.otherinfo p{
+    color: grey;
+}
+.footer{
+    display:flex;
+    height:60px;
+    background-color: rgb(244, 236, 236);
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.form{
+    width: 500px;
+    height: 45px;
+    background-color: rgb(247, 244, 244);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid rgb(250, 247, 247);
+    gap: 12px;
+    margin-top: 10px;
+}
+.form-label{
+    font-size: 15px;
+    color: dark rgb(26, 25, 25);
+}
+.form input{
+    border: none;
+    flex: 1;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(22, 22, 22);
+}
+.button33{
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+}
+
